@@ -3,7 +3,7 @@
     font-family: 'VALORANT';
     font-style: normal;
     font-weight: normal;
-    src: local('/VALORANT'), url('/VALORANT.woff') format('woff');
+    src: local('VALORANT'), url('VALORANT.woff') format('woff');
 }
 
 #backgroundvid {
@@ -154,7 +154,7 @@ a {
     color: white;
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 1000px) {
     .header {
         margin-top: 80px;
     }
