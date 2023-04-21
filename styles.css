@@ -140,6 +140,13 @@ a {
 footer {
     text-align: center;
     font-family: VALORANT;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 @media (max-width: 768px) {
