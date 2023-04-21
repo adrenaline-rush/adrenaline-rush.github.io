@@ -10,12 +10,39 @@
 </head>
 <body>
     <div class="container" align="center">
-        <video loop id="backgroundvid" src="background.mp4" playsinline muted autoplay></video>        
+        <video autoplay loop id="backgroundvid" src="background.mp4"></video>        
     </div>
     <div class="header" align="center">
         <h1 id="department">University College of Engineering</h1>
         <h1 id="department">Department of Computer Science and Engineering presents...</h1>
-        <h1 class="ml10">ADRENALINE RUSH</h1>           
+        <h1 class="ml10">
+            <span class="text-wrapper">
+              <span class="letters">ADRENALINE RUSH</span>
+            </span>
+          </h1>
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js">
+            var textWrapper = document.querySelector('.ml2');
+            textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+            anime.timeline({loop: true})
+            .add({
+                targets: '.ml2 .letter',
+                scale: [4,1],
+                opacity: [0,1],
+                translateZ: 0,
+                easing: "easeOutExpo",
+                duration: 950,
+                delay: (el, i) => 70*i
+            }).add({
+                targets: '.ml2',
+                opacity: 0,
+                duration: 1000,
+                easing: "easeOutExpo",
+                delay: 1000
+            });
+          </script>
+           
     </div>
     
     <div class="deets">
@@ -42,20 +69,8 @@
     <div class="join" align="right">
         <a href="https://www.google.com"><button class="button">register now!</button></a>
     </div>
-    <div class="footer"><p>Created by Nabiel</p></div>
+    <div class="footer"><h1>Created by Nabiel</h1></div>
 	<script>
-		var music = document.querySelector('video');
-		 var promise = music.play();
-		  if (promise !== undefined) {
-		    promise.then(_ => {
-		      // This signifies that autoplay started.
-		    }).catch(error => {
-		      // This signifies that autoplay was disabled.
-		      // Attempt to play it, while muted, and tell the user that it's running but muted.
-		      music.muted = true;
-		      music.play();
-		    });
-		  }
 		var countDownDate = new Date("April 25, 2023 09:30:00").getTime();
 		var x = setInterval(function() {
 			var now = new Date().getTime();
