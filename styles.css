@@ -154,7 +154,7 @@ a {
     color: white;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1366px) {
     .header {
         margin-top: 80px;
     }
