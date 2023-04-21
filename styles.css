@@ -3,7 +3,7 @@
     font-family: 'VALORANT';
     font-style: normal;
     font-weight: normal;
-    src: local('VALORANT'), url('VALORANT.woff') format('woff');
+    src: local('/VALORANT'), url('/VALORANT.woff') format('woff');
 }
 
 #backgroundvid {
