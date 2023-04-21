@@ -104,21 +104,12 @@ a {
 }
 .countdown {
     display: inline-block;
-    background-color: black;
+/*     background-color: black; */
     opacity: 70%;
     font-family: "VALORANT";
     font-size: 50px;
     color: white;
     text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 200px;
-    padding-right: 200px;
-    margin-top: 15px;    
-    margin-bottom:20px;
-    margin-left:60px;
-    margin-right: 30px;
-    border-radius: 12px;
     width: 80px;
     float: left;
 }
@@ -130,16 +121,6 @@ a {
     font-size: 30px;
     color: white;
     text-align: center;
-    padding-left: 10px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 10px;
-    padding-right: 10px; 
-    margin-top: 15px;    
-    margin-bottom:20px;
-    margin-left:60px;
-    margin-right: 30px;
-    border-radius: 12px;
     width: 80px;
     float: right;
     cursor: pointer;
