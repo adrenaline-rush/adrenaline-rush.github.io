@@ -6,7 +6,7 @@
     src: local('VALORANT'), url('VALORANT.woff') format('woff');
 }
 body {
-    background-image: url("jett-valorant-4k-2020-dl.jpg");
+    background-image: url("/jett-valorant-4k-2020-dl.jpg");
     background-size: cover;
 }
 
