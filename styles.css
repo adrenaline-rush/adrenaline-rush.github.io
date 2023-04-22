@@ -14,6 +14,10 @@
         min-height: 50%;
       
 }
+body {
+    background-image: url("jett-valorant-4k-2020-dl.jpg");
+    background-size: cover;
+}
 video {
     object-fit: cover;
     height: 100%;
