@@ -54,7 +54,7 @@ footer {
 /*     position: absolute; */
     bottom: 0;
     left: 0;
-    opacity: 80%;
+    opacity: 98%;
     color: white;
     text-align: center;
     
@@ -108,7 +108,7 @@ a {
     opacity: 90%;
     font-family: "VALORANT";
     font-size: 40px;
-    background-color: black;
+    /* background-color: black; */
     color: white;
     text-align: center;
     width: 400px;
@@ -155,40 +155,40 @@ a {
         margin-bottom: 20px;
     }
     .info {
-        width: 89%;
+        width: 87%;
         float:inline-start;
         text-align: left;
-        margin-top: 40px;
-        padding-left: 5px;
-        padding-left:5px;
+        padding-left: 0px;
+
         margin-top: 25px;
+
         display:block;
     }
     .countdown {
-        width: 90%;
+        /* width: 90%; */
         /* float:inline-start; */
         display: inline;
 /*     background-color: black; */
-        opacity: 90%;
+        opacity: 80%;
         font-family: "VALORANT";
-        font-size: 20px;
+        font-size: 23px;
         background-color: black;
         color: white;
         text-align: center;
-        width: 50px;
+        width: 60px;
         height: 90px;
-        margin-top: 50px;margin-bottom: 30px;padding-left: 30%;padding-right: 26.5%;;margin-right: 37%;
+        margin-top: 50px;margin-bottom: 30px;margin-left:8%;padding-left: 8%;padding-right: 12%;;margin-right: 5%;
     }
     
     .button {
-        width: 90%;
+        width: 87%;
         float:inline-start;
         font-size:xx-large;
         text-align:center;
         padding:30px;
         margin: 20px;
         margin-top: 20px;
-        margin-left:30px;
+        margin-left:25px;
         display:inline-flexbox;
         border-radius: 10px;
     }   
