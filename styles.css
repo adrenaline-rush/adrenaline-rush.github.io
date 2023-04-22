@@ -27,10 +27,12 @@ video {
 .info {
     background-color: black;
     opacity: 70%;
+    display:block;
     padding-left: 10px;
     padding-top: 50px;
     padding-bottom: 90px;
-    padding-right: 10px;
+    padding-right: 5px;
+    padding-left:5px;
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left:20px;
@@ -102,21 +104,24 @@ a {
     color: inherit; 
 }
 .countdown {
-    display: inline;
-/*     background-color: black; */
+    
     opacity: 90%;
     font-family: "VALORANT";
-    font-size: 20px;
+    font-size: 40px;
     background-color: black;
     color: white;
     text-align: center;
-    width: 50px;
-    height: 90px;
-    
-    margin-left: 60px;
-    margin-right: 60px;
+    width: 400px;
+    height: 40px;
+    margin-left: 18px;
+    margin-right: 45%;
+    padding-top: 10px;
     margin-top:20px;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    border-radius: 12px;
+    margin-top: 30px;padding-right: 30px;padding-left: 30px;margin-bottom: -10px;
+    
 }
 .button {
     /* display:inline; */
@@ -146,14 +151,18 @@ a {
 
 @media (max-width: 1300px) {
     .header {
-        margin-top: 80px;
+        margin-top: 60px;
+        margin-bottom: 20px;
     }
     .info {
         width: 89%;
         float:inline-start;
         text-align: left;
         margin-top: 40px;
-        padding-right: 25px;
+        padding-left: 5px;
+        padding-left:5px;
+        margin-top: 25px;
+        display:block;
     }
     .countdown {
         width: 90%;
@@ -168,10 +177,7 @@ a {
         text-align: center;
         width: 50px;
         height: 90px;
-        
-        margin-top:20px;
-        margin-bottom: 20px;
-
+        margin-top: 50px;margin-bottom: 30px;padding-left: 27%;padding-right: 25%;margin-right: 34%;
     }
     
     .button {
