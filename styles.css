@@ -52,11 +52,10 @@ footer {
 /*     position: absolute; */
     bottom: 0;
     left: 0;
-    width: 80%;
     opacity: 80%;
     color: white;
     text-align: center;
-    padding: 5px;
+    
 }
 .header {
     background-color: black;
@@ -103,26 +102,37 @@ a {
     color: inherit; 
 }
 .countdown {
-    display: inline-block;
+    display: inline;
 /*     background-color: black; */
-    opacity: 70%;
+    opacity: 90%;
     font-family: "VALORANT";
-    font-size: 50px;
+    font-size: 20px;
+    background-color: black;
     color: white;
     text-align: center;
-    width: 80px;
-    float: left;
+    width: 50px;
+    height: 90px;
+    
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top:20px;
+    margin-bottom: 10px;
 }
 .button {
-    display:inline;
+    /* display:inline; */
     background-color: black;
-    opacity: 70%;
+    color:white;
+    opacity: 80%;
     font-family: "VALORANT";
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    width: 80px;
-    float: right;
+    float:inline-start;
+    font-size:xx-large;
+    text-align:center;
+    padding:30px;
+    margin: 20px;
+    margin-top: 100px;
+    margin-left:360px;
+    display:inline-flexbox;
+    border-radius: 10px;
     cursor: pointer;
     transition-duration: 0.3s;
 }
@@ -134,7 +144,7 @@ a {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     .header {
         margin-top: 80px;
     }
@@ -143,15 +153,25 @@ a {
         float:inline-start;
         text-align: left;
         margin-top: 40px;
+        padding-right: 25px;
     }
     .countdown {
-        width: 70%;
-        float:inline-start;
-        font-size:xx-large;
-        text-align:center;
-        padding:50px;;
-        margin: 20px;
-        display:inline-flexbox;
+        width: 90%;
+        /* float:inline-start; */
+        display: inline;
+/*     background-color: black; */
+        opacity: 90%;
+        font-family: "VALORANT";
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        width: 50px;
+        height: 90px;
+        
+        margin-top:20px;
+        margin-bottom: 20px;
+
     }
     
     .button {
@@ -159,9 +179,11 @@ a {
         float:inline-start;
         font-size:xx-large;
         text-align:center;
-        padding:50px;
+        padding:30px;
         margin: 20px;
-        margin-top: 80px;
+        margin-top: 20px;
+        margin-left:30px;
         display:inline-flexbox;
+        border-radius: 10px;
     }   
 }
