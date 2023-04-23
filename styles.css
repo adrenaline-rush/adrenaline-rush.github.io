@@ -196,7 +196,9 @@ a {
     padding: 20px;
     padding-top: 100px;
 }
-
+a:link {
+    color: #00ffdf; 
+}
 
 .button:hover {
     background-color: grey;
