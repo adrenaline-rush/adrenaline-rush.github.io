@@ -219,3 +219,13 @@ a:link {
     color: #fff;
     z-index: 999999;
   }
+.scoreboard {
+    background-color: black;
+    opacity: 70%;
+    border-radius: 12px;
+    width:65%;
+    margin:auto;
+    padding:auto;
+    /* font-size: 15px; */
+    font-family: "VALORANT";
+  }
