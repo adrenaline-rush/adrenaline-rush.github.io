@@ -199,14 +199,21 @@ a {
 a:link {
     color: #00ffdf; 
 }
+a:active {
+    color: #00ffdf;
+}
+a:visited {
+    color: #00ffdf;
+}
+a:hover {
+    color:white;
+}
 
 .button:hover {
     background-color: grey;
     color: white;
 }
-/*--------------------------------------------------------------
-# Credits
---------------------------------------------------------------*/
+
 .credits {
     position: relative;
     font-family: "VALORANT";
@@ -219,7 +226,7 @@ a:link {
     color: #fff;
     z-index: 999999;
   }
-.scoreboard {
+  .scoreboard {
     background-color: black;
     opacity: 70%;
     border-radius: 12px;
